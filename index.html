@@ -1,28 +1,25 @@
 <!DOCTYPE html>
 <html lang="de">
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <title>GRIECHEN (GRRR)</title>
     <style>
-        html, body {
-            height: 100%;
-            margin: 0;
-        }
-        body {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            background: #000;
-        }
-        img {
-            max-width: 100vw;
-            max-height: 100vh;
-            object-fit: contain;
-        }
+      html, body {
+        margin: 0;
+        height: 100%;
+        width: 100%;
+      }
+      img {
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        object-fit: fill; /* Bild wird gestreckt, füllt komplett */
+      }
     </style>
-</head>
-<body>
-    <img src="grieche.jpg" alt="Vollbild"/>
-</body>
+  </head>
+  <body>
+    <img src="grieche.jpg" alt="Vollbildbild" />
+  </body>
 </html>
